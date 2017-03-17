@@ -1,0 +1,352 @@
+/* Global */
+body, div[style="background-color: #bab5b2;"] {
+  background: url('https://i.alexflipnote.xyz/wiosfmd.jpg')!important;
+  background-size: cover!important;
+  background-attachment: fixed!important;
+  background-position: center!important;
+  background-repeat: no-repeat!important;
+}
+
+b, h1, h2, h3, h4, p, small {
+  color: white;
+}
+
+h2 {
+  color: white!important;
+}
+
+h3 {
+  background-color: #272727;
+}
+
+div[id="theme.link"] a {
+  color: cyan;
+}
+
+/* Navigation */
+#content_title, #breadcrumb, #nav a.first, #nav a {
+  color: white!important;
+}
+
+div[id="breadcrumb"] a {
+  color: white;
+}
+
+/* Tabs */
+#banlist-nav {
+  margin-top: 10px;
+  color: white;
+}
+
+#tabsWrapper, #tabs ul li a {
+  background-color: #2196F3;
+}
+
+#tabs ul li a, #tabs ul li.active a {
+  transition: all 200ms ease;
+}
+
+#tabs ul li a:hover, #tabs ul li.active a:hover {
+  transition: all 200ms ease;
+  transform: translateY(-0.6em);
+}
+
+div.user a:-webkit-any-link {
+  color: white;
+  font-weight: bold;
+}
+
+#cpanel ul li a {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: auto!important;
+  color: white;
+  margin-top: 10px;
+  padding: 0;
+}
+
+#cpanel ul li a:hover {
+  color: white;
+  padding: 0;
+  font-weight: bold;
+}
+
+/* Buttons */
+
+#searchbtn {
+  padding-top: 10px;
+}
+
+input[type="file"] {
+  outline: none;
+  border: 0;
+  background: transparent;
+  color: white;
+}
+
+/* Text box and menu */
+input:-webkit-autofill, input[id="email"], input[id="loginUsername"], input[id="loginPassword"],
+input[type="text"] {
+  background-color: #272727;
+  color: white;
+  border: 0;
+  outline: none;
+  border-radius: 0;
+}
+
+#loginOtherlinks a {
+  color: white;
+  font-weight: bold;
+}
+
+.contextmenu .head {
+  background-color: #353535;
+}
+
+div.contextmenu {
+  background-color: transparent;
+  border: 0;
+}
+
+div.contextmenu .separator {
+  display: none;
+}
+
+div.contextmenu a {
+  background-color: #272727;
+  transition: all 350ms ease;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+div.contextmenu a:hover {
+  transition: all 350ms ease;
+  background-color: #27ae60;
+}
+
+.select {
+  outline: none;
+  background: #272727;
+  border-radius: 0;
+  border: 0;
+  color: white;
+}
+
+.textbox, textarea {
+  outline: none;
+  background: #272727;
+  border-radius: 0;
+  border: 0;
+  color: white;
+}
+
+.file {
+  background: transparent;
+}
+
+.searchbox {
+  outline: none;
+  background: #272727;
+  border-radius: 0;
+  color: white;
+}
+
+/* Popout */
+a[href="steamopenid.php"] {
+  display: none;
+}
+
+.dialog-content, div.dialog-control {
+  background: #191919 none repeat scroll 0%;
+  border-bottom: 0;
+}
+
+@-webkit-keyframes dialog-animation {
+  from {
+    transform: translateY(-80px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes dialog-animation {
+  from {
+    transform: translateY(-80px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+#dialog-placement {
+  animation: dialog-animation 1s ease-in-out!important;
+}
+
+label[for="loginUsername"], label[for="loginPassword"], label[for="email"] {
+  font-size: 1.4em;
+  color: white;
+}
+
+.icon-info {
+  content: url('https://cdn.discordapp.com/attachments/132632676225122304/292346460522151936/emoji.png')
+}
+
+#loginRememberMeDiv {
+  text-align: center;
+}
+
+span[class="checkbox"] {
+  font-size: 1.4em;
+  color: white;
+}
+
+/* Images */
+img[src="images/shield.png"] {
+  content: url('http://www.clipartbest.com/cliparts/BdT/6Xx/BdT6XxLi9.png');
+  height: 16px;
+}
+
+img[src="images/games/tf2.gif"] {
+  content: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Team_Fortress_2_style_logo.svg/2000px-Team_Fortress_2_style_logo.svg.png');
+  height: 16px;
+}
+
+/* Tables */
+td, td.listtable_1 {
+  color: white;
+}
+
+td.listtable_1_banned, td.listtable_1_unbanned {
+  color: black;
+}
+
+#submit-main {
+  background-color: #191919;
+  color: white;
+}
+
+.ban-edit ul li a {
+  color: white;
+  border-bottom: 0;
+  padding: 3px;
+  transition: all 500ms ease;
+}
+
+.ban-edit ul li a:hover {
+  color: white;
+  padding: 3px;
+  transition: all 500ms ease;
+  box-shadow: inset 15em 0 0 0 #303030;
+}
+
+td.listtable_1_permanent {
+  background-color: #e74c3c;
+}
+
+td.listtable_1_banned {
+  background-color: #f1c40f;
+}
+
+td.listtable_1_unbanned {
+  background-color: #2ecc71;
+}
+
+td.box-content {
+  transition: all 200ms ease;
+}
+
+td.listtable_1_permanent, td.listtable_1_banned, td.listtable_1_unbanned {
+  color: white;
+}
+
+div[id="0"] {
+  color: white;
+}
+
+td.listtable_top {
+  background-color: #272727;
+  border-left: 0!important;
+  border-right: 0!important;
+}
+
+td, td.listtable_1 {
+  border-left: 0!important;
+  border-right: 0!important;
+}
+
+td.listtable_1, #lostpassword {
+  background-color: #191919;
+}
+
+td.listtable_2 {
+  border: #191919 solid;
+  background-color: #191919;
+}
+
+/* Admin Panel */
+#cpanel {
+  background-color: #191919;
+}
+
+#admin-page-content {
+  background: #141414;
+}
+
+.rowdesc {
+  color: white;
+}
+
+#current-theme-holder {
+  background-color: #303030;
+}
+
+#cpanel ul {
+  margin-left: 75px;
+}
+
+#admin-page-menu ul li a {
+  background-color: #272727;
+}
+
+img[src="themes/default/images/admin/bans.png"] {
+  content: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Twemoji_1f528.svg/2000px-Twemoji_1f528.svg.png');
+  width: 4em;
+}
+
+img[src="themes/default/images/admin/servers.png"] {
+  content: url('http://emojipedia-us.s3.amazonaws.com/cache/f4/87/f487c818c0943e5e4691ee0bacd9374c.png');
+  width: 4em;
+}
+
+img[src="themes/default/images/admin/admins.png"] {
+  content: url('http://emojipedia-us.s3.amazonaws.com/cache/bd/ba/bdba0313c97485fb3032276d5016f4b4.png');
+  width: 4em;
+}
+
+img[src="themes/default/images/admin/groups.png"] {
+  content: url('https://images.vexels.com/media/users/3/136557/isolated/preview/64e97a538865341a45bd37df4fad1579-people-user-chat-icon-by-vexels.png');
+  width: 4em;
+}
+
+img[src="themes/default/images/admin/settings.png"] {
+  content: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Twemoji_1f3a8.svg/500px-Twemoji_1f3a8.svg.png');
+  width: 4em;
+}
+
+img[src="themes/default/images/admin/mods.png"] {
+  content: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Twemoji_1f4dd.svg/2000px-Twemoji_1f4dd.svg.png');
+  width: 4em;
+}
+
+/* Footer */
+#footer {
+  background-color: #23272A;
+}
