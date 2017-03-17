@@ -49,6 +49,7 @@ div[id="breadcrumb"] a {
 #tabs ul li a:hover, #tabs ul li.active a:hover {
   transition: all 200ms ease;
   transform: translateY(-0.6em);
+  box-shadow: 0px 0.6em 0px #555;
 }
 
 div.user a:-webkit-any-link {
